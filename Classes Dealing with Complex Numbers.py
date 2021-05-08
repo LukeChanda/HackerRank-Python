@@ -62,6 +62,9 @@ C1 = Complex(2, 1)
 C2 = Complex(5, 6)
 
 # Below is short hand for this: C3 = C1.__add__(C2)
+
+C3 = C1 + C2
+
 C3 = C2.mod()
 
 print(C3)
